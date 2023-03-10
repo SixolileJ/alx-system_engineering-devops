@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod o+rwx hello
+chmod "$(echo -n $((8#0))$((8#7)))" hello
